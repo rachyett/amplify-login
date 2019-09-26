@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "richard101-dev-20190924134757-authRole",
+            "UnauthRoleArn": "arn:aws:iam::494702212348:role/richard101-dev-20190924134757-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::494702212348:role/richard101-dev-20190924134757-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "richard101-dev-20190924134757-deployment",
+            "UnauthRoleName": "richard101-dev-20190924134757-unauthRole",
+            "StackName": "richard101-dev-20190924134757",
+            "StackId": "arn:aws:cloudformation:eu-west-1:494702212348:stack/richard101-dev-20190924134757/9209cf60-dec9-11e9-97d2-0a0cb138cf0a"
+        },
+        "categories": {
+            "auth": {
+                "richard1018398ad75": {}
+            }
+        }
+    }
+}

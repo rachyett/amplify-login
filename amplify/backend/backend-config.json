@@ -1,0 +1,32 @@
+{
+	"auth": {
+		"richard1018398ad75": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"api": {
+		"richard101": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authrichard1018398ad75"
+						}
+					}
+				}
+			}
+		}
+	},
+	"storage": {
+		"s346ba820c": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
